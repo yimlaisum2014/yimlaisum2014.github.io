@@ -1,198 +1,452 @@
-<!-- 
-  Hello 😊.
-
-  This template is designed and developed by Nisar Hassan Naqvi
-  for anyone to use for free or customize the way they like.
-
-  Github Repo: https://github.com/nisarhassan12/portfolio-template/
-  My Website: https://nisar.dev
-
-  For business & inquires, contact me => syednisarhassan12@gmail.com
--->
-
-<!--
-  Follow the instructions written in comments to create your stunning portfolio
--->
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <!-- Put your site title here -->
-  <title>
-    Sam Yim | A Maker 
-  </title>
+  <title>LaiSum-Yim Website</title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
 
-  <meta name="description" content="Add small description of yourslef.">
-  <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
-  <meta name="keywords" content="Put your name, skills and some coding keywords" />
-  <link rel="stylesheet" href="index.css" />
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/favicon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: iPortfolio - v1.3.0
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
 
 <body>
 
-  <!-- ***** Header ***** -->
+  <!-- ======= Mobile nav toggle button ======= -->
+  <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
 
-  <header class="header" role="banner" id="top">
-    <div class="row">
-      <nav class="nav" role="navigation">
-        <ul class="nav__items">
-          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-          <li class="nav__item">
-            <a href="#about" class="nav__link">About</a>
-          </li>
-          <li class="nav__item">
-            <a href="#contact" class="nav__link">Contact</a>
-          </li>
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+
+      <div class="profile">
+        <img src="assets/img/SY.jpg" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="https://yimlaisum2014.github.io/">Yim Lai Sum</a></h1>
+        <h2 class="text-light">Maker</h2>
+        <div class="social-links mt-3 text-center">
+          <a href="https://www.github.com/yimlaisum2014" class="github"><i class="bx bxl-github"></i></a>
+          <!-- <a href="https://www.facebook.com/DiaboloKiat" class="facebook"><i class="bx bxl-facebook"></i></a> -->
+          <!-- <a href="https://www.instagram.com/diabolokiat" class="instagram"><i class="bx bxl-instagram"></i></a> -->
+          <!--<a href="skype.html" class="google-plus"><i class="lab la-line"></i></a>-->
+          <!-- <a href="skype.html" class="google-plus"><i class="bx bxl-skype"></i></a>
+          <a href="https://www.linkedin.com/in/信吉-林-31918a175" class="linkedin"><i class="bx bxl-linkedin"></i></a> -->
+        </div>
+      </div>
+
+      <nav class="nav-menu">
+        <ul>
+          <li class="active"><a href="https://yimlaisum2014.github.io/"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="#about"><i class="bx bx-user"></i> <span>About</span></a></li>
+          <li><a href="#skills"><i class="bx bx-book-content"></i> <span>Skills</span></a></li>
+          <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+          <li><a href="#Publications"><i class="bx bx-book"></i> Publications</a></li>
+          <li><a href="#Projects"><i class="bx bx-atom"></i> Projects</a></li>
+
+          <!--<li><a href="#portfolio"><i class="bx bx-book-content"></i> Portfolio</a></li>
+          <li><a href="#services"><i class="bx bx-server"></i> Services</a></li> -->
+          <li><a href="#contact"><i class="bx bx-envelope"></i> Contact</a></li>
+
         </ul>
-      </nav>
+      </nav><!-- .nav-menu -->
+      <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+
     </div>
-    <div class="header__text-box row">
-      <div class="header__text">
-        <h1 class="heading-primary">
-          <!-- Replace the following name with your name -->
-          <span>Sam Yim ,LaiSum </span>
-        </h1>
-        <!-- Put a small paragraph about yourself -->
-        <p>Dreamer and Maker </p>
-        <a href="#contact" class="btn">Get in touch</a>
-      </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="hero-container" data-aos="fade-in">
+      <h1>Sam - Yim</h1>
+      <p>I'm <span class="typed" data-typed-items="Master's Student, Dreamer, Pioneer, Maker,"></span></p>  
+      <a class="btn btn-primary" href="assets/doc/CV_version_2021.pdf" target="_blank">Download CV </a>
     </div>
-  </header>
+  </section><!-- End Hero -->
 
-  <main role="main">
+  <main id="main">
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
 
-    <!-- ***** Work ***** -->
+        <div class="section-title">
+          <h2>About</h2>
+        </div>
 
-    <section class="work" id="work">
-      <div class="row">
-        <h2>Projects</h2>
-        <div class="work__boxes">
+        <div class="row">
+          <div class="col-lg-4" data-aos="fade-right">
+            <img src="assets/img/Sam_real.gif" class="img-fluid" alt="">
+          </div>
 
-          <!-- Each div with the work__box class is a project. -->
-          <!--Project-1-->
-          <div class="work__box">
-            <div class="work__text">
-              <h3>MGV with Duel Arm </h3>
-              <p>
-                 What can it do?
-              </p>
-              <ul class="work__list">
-                <li>Detect the target</li>
-                <li>Auto-move near to the target</li>
-                <li>Pickup the target bu UI </li>
-              </ul>
+          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <h3>Hobbies</h3> <!--UI/UX Designer &amp; Web Developer.-->
+
+                <ul>
+                  <li><i class="icofont-rounded-right"></i> Playing sports ( Table tennis , Basketball , Track and Field ) </li>
+                  <li><i class="icofont-rounded-right"></i> Reading </li>
+                  <li><i class="icofont-rounded-right"></i> watching movies </li>
+                  <li><i class="icofont-rounded-right"></i> photography </li>
+                </ul>
+
+            <h3>Research Interest</h3>
+
+            <ul>
+              <li><i class="icofont-rounded-right"></i> Innovation </li>
+              <li><i class="icofont-rounded-right"></i> Mechanism and Product design </li>
+              <li><i class="icofont-rounded-right"></i> Robotic </li>
+              <li><i class="icofont-rounded-right"></i> VR/AR </li>
+            </ul>
             
-              <div class="work__links">
-                <a href="#" class="link__text">
-                  More Detail (Not available Yet) <span>&rarr;</span>
-                </a>
-                <a href="#">
-                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
-                </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/project-2.png" class="work__image" alt="Project 1" width="600" height="400"/>
-              
-            </div>
           </div>
-          <!--Project-2-->
-          <div class="work__box">
-            <div class="work__text">
-              <h3>DuckieFloat - shape transformer</h3>
+        </div>
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills section-bg">
+      <div class="container">
+        <div class="section-title">
+          <h2>Skills</h2>
+          <!--<p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>-->
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-right">
+            <h3 class="resume-title">Programming</h3>
+              <p><i class="icofont-rounded-right"></i> C/C++,C# , Python, MATLAB, Visual Basic</p>
+            <h3 class="resume-title">Middleware &amp; Libraries &amp; container</h3>
+              <p><i class="icofont-rounded-right"></i> Robotic Operating System (ROS), OpenCV, Docker</p>
+            <h3 class="resume-title">Embedded Devices</h3>
+              <p><i class="icofont-rounded-right"></i> Arduino, Raspberry pi(3B/3B+), NVIDIA Jetson TX2</p>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-left">
+            <h3 class="resume-title">Sensors</h3>
+              <p><i class="icofont-rounded-right"></i> Pi camera, Depth camera (D435)</p>
+            <h3 class="resume-title">CAE/CAD/CAM/Machining skills</h3>
+              <p><i class="icofont-rounded-right"></i> Solidworks, Abaqus / Ansys Classic, Comsol, 3D printer(FDM/LCD), Laser cutting, 3D scanning</p>
+            <h3 class="resume-title">Simulator/Game engine</h3>
+              <p><i class="icofont-rounded-right"></i> Gazebo, Unity</p>
+
+          </div>
+        </div>
+      </div>
+    </section><!-- End Skills Section -->
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container">
+        <div class="section-title">
+          <h2>Resume</h2>
+          <!--<p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>-->
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-up">
+            <!-- <h3 class="resume-title">Sumary</h3>
+            <div class="resume-item pb-0">
+              <h4>Lim Sin Kiat</h4>
               <p>
-                What can it do?
+                I'm a master student at National Yang Ming Chiao Tung University department of Electrical and Control Engineering. <br>
+                I graduated from the Electrical and Computer Engineering department of National Chiao Tung University.
+              </p>
+              <ul>
+                <li>EE622, No. 1001, Daxue Road, East District, Hsinchu City 300, Taiwan (R.O.C.)</li>
+                <li>+886 909042739</li>
+                <li>DiaboloKiat95.eed05@nctu.edu.tw</li>
+              </ul>
+            </div> -->
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>M.S. in Robotics</h4>
+              <h5>2020 - present</h5>
+              <p><em>National Yang Ming Chiao Tung University, Master's Degree, Taiwan</em></p>
+            </div>
+
+            <div class="resume-item">
+              <h4>B.S. in Mechanical engineering</h4>
+              <h5>2015 - 2019</h5>
+              <p><em>National Chung Cheng University (CCU), Taiwan</em></p>
+            </div>
+
+            <div class="resume-item">
+              <h4>Secondary school</h4>
+              <h5>2009 - 2015</h5>
+              <p><em>T.W.G.Hs Li Ka Shing College (LKS), Hong Kong</em></p>
+            </div>
+          </div>
+          
+          <!-- <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Professional Experience</h3> -->
+
+            <!-- <div class="resume-item">
+              <h4>Senior graphic design specialist</h4>
+              <h5>2019 - Present</h5>
+              <p><em>Experion, New York, NY </em></p>
+              <ul>
+                <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
+                <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
+                <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
+                <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
+              </ul>
+            </div> -->
+
+          </div>
+        </div>
+      </div>
+    </section><!-- End Resume Section -->
+
+
+    <!-- ======= Publication Section ======= -->
+    <section id="Publications" class="Publications section-bg">
+      <div class="container">
+        <div class="section-title">
+          <h2>Publications</h2>
+        </div>
+
+          <div class="card" data-aos="fade-up" data-aos-offset="10">
+            <div class="card-body">
+
+              <div class="h6 mt-0 title"> <b>Patent</b> </div>
+                <p>
+                  <li>
+                    CHIANG- C.-K. (TW), CHEN- S.-Y. (TW), HUANG- Y.-H. (TW), LIN- C.-Y. (TW), 
+                    LO- F.-Y. (TW), LEE- C.-H. (TW), LIN- Z.-Y. (TW), HSIEH- Y.-C. (TW), 
+                    TCHEN- S.-T. (TW), LEE- C.-Y. (TW), SU- Y.-C. (TW), CHEN- F. (TW), LIN- W.-I. (TW), 
+                    LIU- C.-H. (TW), <b>YIM- L.-S. (HK)</b>, LEI- W.-S. (MO), SU- S.-F. (TW), LEE- C.-I. (TW) 
+                    <br/>
+                    "TEST PIECE, DETECTION METHOD AND DETECTION DEVICE OF DENTAL CARIES FACTORS" 
+                    <br/>
+
+                    <i class="icofont-rounded-right"></i>  <a href="https://twpat.tipo.gov.tw/" target="_blank">Patent Number</a> : I718431
+                  </li>
+                </p>
                 
-             </p>
-              <ul class="work__list">
-                <li>To change the DuckieFloat shape for passing thought the frame</li>
-              </ul>
+              <hr style="color: rgb(112, 112, 112); background-color: rgb(112, 112, 112);"/>
 
-              <div class="work__links">
-                <a href="#" class="link__text">
-                  More Detail (Not available Yet) <span>&rarr;</span>
-                </a>
-                <a href="#">
-                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
-                </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/project-3.jpg" class="work__image" alt="Project 3"  width="600" height="400"/>
-            </div>
+              <div class="h6 mt-0 title"><b> Journal </b></div>
+                <p>
+                  <li>
+                    C.-L Lu*, J.-T. Huang*, C.-I Huang, Z.-Y. Liu, C.-C.
+                    Hsu, Y.-Y. Huang, S.-C. Huang, P.-K. Chang, Z. L. Ewe, P.-J.
+                    Huang, P.-L. Li, B.-H. Wang, <b>L.-S. Yim</b>, S.-W. Huang, M.-S
+                    Bai, H.-C. Wang, (*Equal Contribution)
+                    <br/> 
+                    “A Heterogeneous Unmanned Ground Vehicle and Blimp Robot
+                    Team for Search and Rescue using Data-driven Autonomy and
+                    Communication-aware Navigation” 
+                    <br/>
+
+                    <i class="icofont-rounded-right"> </i><a href="assets/doc/JFR_SubT_NCTU.pdf" target="_blank">preprint</a>
+                    Field Robotics - Special Issue: Advancements and lessons
+                    learned during Phase I & II of the DARPA Subterranean
+                    Challenge. 2021
+                  </li>
+                </p>
+
+                <hr style="color: rgb(112, 112, 112); background-color: rgb(112, 112, 112);"/>
+
+                <div class="h6 mt-0 title"><b> Under Review </b></div>
+                  <p>
+                    <li>
+                      <b>L.-S. Yim*</b>, Q.-T. Vo* , C.-R. Wang , P.-L. Li , H.-C. Wang , H.-K. Huang and L.-F. Yu (*Equal Contribution)
+                      <br/>
+                      “WFH-VR: Teleoperating a Robot Arm to set a Dining Table across the Globe via Virtual Reality” 
+                      <br/>
+
+                      <i class="icofont-rounded-right"> </i><a href="assets/doc/vr_robot_arm.pdf"target="_blank">preprint</a>
+                      IEEE International Conference on Robotics and Automation. 2022  
+                    </li>
+                  </p>
+
           </div>
         </div>
-      </div>
-    </section>
-
-
-    <!-- ***** About ***** -->
-
-    <section class="about" id="about">
-      <div class="row">
-        <h2>About Me</h2>
-        <div class="about__content">
-          <div class="about__text">
-            <!-- Replace the below paragraph with info about yourself -->
-            <p>
-              I'm a master student studying in Gruduate Degree Program of Robotics.
-              Love to bring the idea to reality.
-              
-            </p>
-
-            <h3>Ability</h3>
-            <p>
-                What tools I had used
-            </p>
-              <ul class="work__list">
-                <li>Computer-aided design (CAD): Solidworks</li>
-                <li>Computer-aided engineering (CAE) : Abaqus / Ansys Classic</li>
-                <li>Robot Operating software : ROS </li>
-                <li>Other software : Matlab </li>
-                <li>language : Visual Basic / Python / C++ </li>
-                <li>Evaluation Board : Arduino / TX2 /Rpi </li>
-              </ul>
-            <!-- Provide a link to your resume -->
-            <a href="doc/(ENG)CV.pdf" class="btn">My Resume</a>
-          </div>
-
-          <div class="about__photo-container">
-            <!-- Add a nice photo of yourself -->
-            <img class="about__photo" src="./images/syed-ali-hussnain.jpg" alt="" width="400" height="400"/>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <!-- ***** Contact ***** -->
-
-  <section class="contact" id="contact">
-    <div class="row">
-      <h2>Get in Touch</h2>
-      <div class="contact__info">
-        <p>
-          Please contact me if you intereted in my previous projects ! </p>
-          Or you are finding someone to share your crazy idea ! </p>
-          Or you want to find someone could disscuse your crazy idea ! </p>
-          Feel free to contact me ~~ </p>
-        
-        <!-- Replace the email with yours -->
-        <a href="mailto:yimlaisum.gdr08g@nctu.edu.tw" class="btn">yimlaisum.gdr08g@nctu.edu.tw</a>
       </div>
     </div>
-  </section>
+    <!-- ======= END Publication Section  ======= -->
+
+ <!-- ======= Projects Section ======= -->
+    <section id="Projects" class="Projects">
+      <div class="container">
+        <div class="section-title">
+          <h2>Projects</h2>
+        </div>
+<!-- P1 -->
+        <div class="card" data-aos="fade-up" data-aos-offset="10">
+          <div class="card-body">
+          <h3> <strong>Carindex</strong> </h3> 
+          <p class="category">A detecting instrument that evaluates the risk of tooth decay with saliva</p>
+
+          <div class="row">
+            <div class="col-lg-4" data-aos="fade-right">
+              <img src="assets/img/IGEM.jpg" class="img-fluid" alt="">
+            </div>
+            
+            <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+                <p>
+                    We used <b>synthetic biology technology</b> to modify bacteria to detect targets which would cause tooth decay. 
+                    These bacteria will be attached to test paper and freeze dried to preserve them until use.
+                    Also, we innovated a <b> machine </b> which will take a series of actions to activate the bacteria and 
+                    a <b> system </b> that detects the strength of the excited light caused by Bacteria interacting with the targets
+                    and uses Bluetooth to upload the data, first to a cellphone and then to a server. 
+                    The data are input into a model calculated by <b> machine learning </b>, 
+                    and the results sent back to the user’s cellphone to show the risk of cavities.
+                </p>
+                
+                <li>2017 IGEM (Awards: Silver Medal) </li>
+
+                <a class="btn btn-primary" href="http://2017.igem.org/Team:CCU_Taiwan" target="_blank">Project Link </a> 
+            </div>
+            
+          </div>
+        </div>
+      </div>
+<!-- P1 -->
 
 
-  <a href="#top" class="back-to-top" title="Back to Top">
-    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
-  </a>
-  <script src="./index.js"></script>
+      
+
+    </section><!-- End Project Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="section-title">
+          <h2>Contact Me</h2>
+          <p>
+            Please contact me if you intereted in my previous projects ! </p>
+            Or you are finding someone to share your crazy idea ! </p>
+            Or you want to find someone could disscuse with your crazy idea ! </p>
+            Feel free to contact me ~~ </p>
+        </div>
+
+        <div class="row" data-aos="fade-in">
+          <div class="col-lg-5 d-flex align-items-stretch">
+            <div class="info">
+              <div class="address">
+                <i class="icofont-google-map"></i>
+                <h4>Location:</h4>
+                <p>EE622, No. 1001, Daxue Road, East District, Hsinchu City 300, Taiwan (R.O.C.)</p>
+              </div>
+
+              <div class="email">
+                <i class="icofont-envelope"></i>
+                <h4>Email:</h4>
+                <p>yimlaisum.gdr08g@nctu.edu.tw</p>
+              </div>
+
+              <div class="phone">
+                <i class="icofont-phone"></i>
+                <h4>Call:</h4>
+                <p>+886 961541270</p>
+              </div>
+              
+              <iframe src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJPZcPo-03aDQRwGWu5z8nTSU&key=AIzaSyBhfZu4oWJgM8xT-s4Tdx3iZymaSD-5kY4" 
+                frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+            </div>
+          </div>
+
+          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+            <form action="https://formspree.io/xbjzpoew" method="POST">  <!--forms/contact.php / https://formspree.io/xbjzpoew-->
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="name">Your Name</label>
+                  <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <div class="validate"></div>
+                </div>
+                
+                <div class="form-group col-md-6">
+                  <label for="name">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email" data-rule="email" data-msg="Please enter a valid email" />
+                  <div class="validate"></div>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="name">Subject</label>
+                <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <div class="validate"></div>
+              </div>
+
+              <div class="form-group">
+                <label for="name">Message</label>
+                <textarea class="form-control" name="message" rows="10" data-rule="required" data-msg="Please write something for us"></textarea>
+                <div class="validate"></div>
+              </div>
+
+              <div class="form-group">
+                <input type="submit" class="btn btn-primary btn-send-message" value="Send Message">
+              </div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+<!--  
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>iPortfolio</span></strong>
+      </div>
+      <div class="credits">-->
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
+<!--        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer>--><!-- End  Footer -->
+
+
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
 </body>
 
 </html>
